@@ -257,7 +257,7 @@ tsl::elm::Element *FizeauOverlayGui::createUI() {
     this->gamma_header      = new tsl::elm::CategoryHeader("");
     this->luma_header       = new tsl::elm::CategoryHeader("");
 
-    auto *frame = new tsl::elm::OverlayFrame("Fizeau", VERSION "-" COMMIT);
+    auto *frame = new tsl::elm::OverlayFrame("Fizeau", VERSION);
     auto *list = new tsl::elm::List();
 
     list->addItem(this->info_header, 60);
